@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon renders check icon correctly 1`] = `
+<svg
+  className="icon icon-location"
+>
+  <use
+    href="/assets/icons/iconset.svg#icon-location"
+    xlinkHref="/assets/icons/iconset.svg#icon-location"
+  />
+</svg>
+`;

@@ -1,0 +1,17 @@
+---
+to: src/components/<%= h.inflection.pluralize(h.changeCase.lower(type)) %>/<%= name %>/__stories__/<%= name %>.story.tsx
+---
+import React from 'react';
+import { storiesOf } from '@storybook/react';
+
+import <%= name %> from '../<%= name %>';
+
+import * as data from '../__data__/<%= name %>.mockdata';
+
+const stories = storiesOf('<%= h.inflection.pluralize(h.changeCase.paramCase(type)) %>|<%= name %>', module);
+
+Object.keys(data).forEach((key) => {
+    stories.add(key, () => {
+        return <<%= name %> {... data[key]} />;
+    });
+});

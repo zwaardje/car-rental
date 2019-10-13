@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link renders primary link correctly 1`] = `
+<a
+  className="link link__primary"
+  href="#"
+/>
+`;
+
+exports[`Link renders secondary link correctly 1`] = `
+<a
+  className="link link__secondary"
+  href="#"
+/>
+`;
+
+exports[`Link renders underline link correctly 1`] = `
+<a
+  className="link link__underline"
+  href="#"
+/>
+`;
