@@ -1,2 +1,38 @@
-.Overview {
+$buildingUnit: 12px;
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.overview__heading{
+    margin-bottom: 0;
+    text-align:  center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.overview__subtitle {
+    font-size: 22px;
+    color: #a6a7a8;
+    text-align:  center;
+    width: 70%;
+    margin: $buildingUnit auto;
+}
+.overview__list-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: $buildingUnit * 2;
+}
+
+.overview__button{
+    max-width: $buildingUnit * 20;
+    display: block;
+    margin: $buildingUnit * 2 auto;
+    color: #0ea1d5;
+    border: 2px solid #0ea1d5;
+    background-color: #ffffff;
 }
