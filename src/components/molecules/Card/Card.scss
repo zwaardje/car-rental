@@ -1,2 +1,94 @@
-.Card {
+$buildingUnit: 12px;
+
+.rental {
+    display: flex;
+    flex-direction: column;
+    padding: ($buildingUnit * 4) ($buildingUnit * 2) ($buildingUnit * 4) ($buildingUnit * 2);
+    background-color: #ffffff;
+}
+
+.rental__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rental__title{
+    margin: 0;
+}
+
+.rental__subtitle{
+    margin: 0;
+    font-size: 16px;
+}
+.rental__pricing{
+    color: #ffffff;
+    background-color: #70d100;
+    font-weight: 600;
+    padding: $buildingUnit;
+    margin: ($buildingUnit / 2) 0;
+}
+
+.rental__pricing-rate{
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.rental__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: $buildingUnit * 2;
+}
+
+.rental__body--top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.rental__body--bottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.rental__specifications{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 13px;
+    text-transform: lowercase;
+}
+
+.rental__specifications-item {
+    margin-top: $buildingUnit / 2;
+    margin-right: $buildingUnit / 2;
+    min-width: $buildingUnit * 10;
+}
+
+.rental__extras-list{
+    column-count: 2;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    padding-top: $buildingUnit;
+}
+
+.rental__image{
+    width: 75%;
+}
+
+.rental__footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rental__booking {
+    margin-right: $buildingUnit * 2;
 }

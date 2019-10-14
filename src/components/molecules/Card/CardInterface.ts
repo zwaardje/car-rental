@@ -1,14 +1,15 @@
 import { Image } from '../../atoms/Image/ImageInterface';
 
 export interface Specifications {
-    seats: number;
-    airco: boolean;
-    luggage: number;
-    transmission: string;
+    seats?: string | number;
+    airco?: string;
+    luggage?: string | number;
+    transmission?: string;
+    doors?: string | number ;
 }
 
 export interface Pricing {
-    price: number;
+    amount: number;
     currency: string;
 }
 

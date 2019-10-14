@@ -9,13 +9,13 @@ export const defaultProps: CardInterface = {
     },
     specifications: {
         seats: 5,
-        airco: true,
+        airco: 'Airconditioning',
         luggage: 2,
-        transmission: 'manual',
+        transmission: 'Manual',
     },
     extras: ['Emergency Roadside Assistance', 'Theft protection', 'Airport Surcharge'],
     pricing:{
-        price: 50,
+        amount: 50,
         currency: 'ZAR',
     },
 };
