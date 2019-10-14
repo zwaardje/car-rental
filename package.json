@@ -1,7 +1,7 @@
 {
-    "name": "igoto",
+    "name": "car-rental",
     "version": "0.0.1",
-    "description": "I go to",
+    "description": "car-rental",
     "main": "index.js",
     "scripts": {
         "build": "webpack -p --mode 'production' --optimize-minimize --config webpack.config.js",
@@ -25,14 +25,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/zwaardje/igto.git"
+        "url": "git+https://github.com/zwaardje/car-rental.git"
     },
     "author": "Niels Aulman",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/zwaardje/igoto/issues"
+        "url": "https://github.com/zwaardje/car-rental/issues"
     },
-    "homepage": "https://github.com/zwaardje/igoto#readme",
+    "homepage": "https://github.com/zwaardje/car-rental#readme",
     "dependencies": {
         "@sentry/browser": "^5.3.0",
         "chart.js": "^2.8.0",
