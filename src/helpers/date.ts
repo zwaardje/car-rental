@@ -1,7 +1,7 @@
 import { format, parse } from 'date-fns';
 
 export const DATE_TIME_FORMAT = 'dd/MM/yyyy HH:mm';
-export const DATE_FORMAT = 'dd/MM/yyyy';
+export const DATE_FORMAT = 'dd LLLL yyyy';
 export const TIME_FORMAT = 'HH:mm';
 
 export const NIGHT = 'night';
