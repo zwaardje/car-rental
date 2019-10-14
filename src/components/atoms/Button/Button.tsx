@@ -2,6 +2,8 @@ import * as React from 'react';
 
 import { Button as ButtonInterface } from './ButtonInterface';
 
+import './Button.scss';
+
 export interface Props extends ButtonInterface {}
 export interface State {}
 

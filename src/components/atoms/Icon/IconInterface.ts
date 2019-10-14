@@ -1,6 +1,9 @@
 import { HTMLAttributes } from 'react';
 
 export type IconTypes =
+'seats' |
+'airco' |
+'transmission' |
 'add' |
 'back'|
 'calendar' |

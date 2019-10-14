@@ -1,8 +1,8 @@
 import * as React from 'react';
 
-import RouterLink from '../RouterLink';
-
 import { Cta as CtaInterface } from './CtaInterface';
+
+import './Cta.scss';
 
 export interface Props extends CtaInterface {}
 export interface State {}
@@ -11,12 +11,12 @@ export default class Cta extends React.Component<Props, State> {
     static displayName = 'Cta';
 
     render() {
-        const { url, label } = this.props;
+        const { url, label, className } = this.props;
 
         return (
-            <RouterLink url={url}>
+            <a href={url} className={`cta ${className ? ` ${className}` : ''}`}>
                 {label}
-            </RouterLink>
+            </a>
         );
     }
 }

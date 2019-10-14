@@ -9,10 +9,10 @@ export default class Image extends React.Component<Props, State> {
     static displayName = 'Image';
 
     render() {
-        const { url } = this.props;
+        const { url, className } = this.props;
 
         return (
-            <img src={url} />
+            <img src={url} className={`image ${className ? ` ${className}` : ''}`} />
         );
     }
 }

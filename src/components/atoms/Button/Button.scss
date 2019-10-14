@@ -1,2 +1,13 @@
-.Button {
+$buildingUnit: 12px;
+.button {
+    color: #ffffff;
+    background-color: #0ea1d5;
+    padding: $buildingUnit $buildingUnit * 1.5;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+
+    &:hover{
+        cursor: pointer;
+    }
 }
