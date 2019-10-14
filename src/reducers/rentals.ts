@@ -39,7 +39,7 @@ export const defaultState = [{
         latitude: -33.969987,
         longitude: 18.594962,
     }],
-},{
+}, {
     type: 'Sedan',
     brand: 'Toyota',
     model: 'Carolla',

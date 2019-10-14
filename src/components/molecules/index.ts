@@ -9,4 +9,3 @@ export { Map as MapInterface } from './Map/MapInterface';
 
 export { default as Location } from './Location';
 export { Location as LocationInterface } from './Location/LocationInterface';
-

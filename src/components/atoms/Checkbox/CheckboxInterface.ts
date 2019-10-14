@@ -1,6 +1,5 @@
 import { HTMLAttributes } from 'react';
 
-
 export interface Value {
     value: string | number;
     checked: boolean;

@@ -53,7 +53,7 @@ export default class Rating extends React.Component<Props, State> {
             <div>
                 {
                     Array.from(Array(this.standard), (_, x) => {
-                        return <Icon key={x} className={`rating__icon${x + 1 <= rating ? ' rating__icon--full' : '' }`} icon={icon} />
+                        return <Icon key={x} className={`rating__icon${x + 1 <= rating ? ' rating__icon--full' : '' }`} icon={icon} />;
                     })
                 }
                 <span>{rating} / {this.standard}</span>

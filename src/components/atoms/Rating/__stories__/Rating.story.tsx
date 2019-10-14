@@ -5,7 +5,7 @@ import Rating from '../Rating';
 
 import * as data from '../__data__/Rating.mockdata';
 
-const stories = storiesOf('atoms|Rating', module)
+const stories = storiesOf('atoms|Rating', module);
 
 Object.keys(data).forEach((key) => {
     stories.add(key, () => {

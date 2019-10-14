@@ -7,7 +7,7 @@ const item = () => {
            Im an item
         </div>
     );
-}
+};
 
 export const defaultProps: ListInterface = {
     children: [item, item],
