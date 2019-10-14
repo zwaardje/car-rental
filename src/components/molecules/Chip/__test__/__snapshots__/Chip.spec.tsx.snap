@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chip renders defaultProps Chip correctly 1`] = `
+<div
+  className="chip chip--primary"
+>
+  <div
+    className="chip__icon"
+  >
+    <svg
+      className="icon icon-check"
+    >
+      <use
+        href="/assets/icons/iconset.svg#icon-check"
+        xlinkHref="/assets/icons/iconset.svg#icon-check"
+      />
+    </svg>
+  </div>
+  <span
+    className="chip__label"
+  >
+    3
+  </span>
+</div>
+`;

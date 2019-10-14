@@ -1,0 +1,32 @@
+$buildingUnit: 12px;
+.chip {
+    padding: $buildingUnit / 2;
+
+    min-width: $buildingUnit * 5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    &.chip--primary {
+        background-color: #ffffff;
+        color: #444444;
+        fill: #ffffff;
+    }
+
+    &.chip--active {
+        background-color: #00b9bb;
+        color: #ffffff;
+        fill: #ffffff;
+    }
+
+    &.chip--secondary {
+        background-color: #ffffff;
+        color: #000000;
+
+    }
+
+    &__icon{
+       display: flex;
+       margin-right: 5px;
+    }
+}
