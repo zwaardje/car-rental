@@ -1,0 +1,10 @@
+$buildingUnit: 12px;
+
+.checkbox-label{
+    &:hover{
+        cursor: pointer;
+    }
+}
+.checkbox {
+    margin-right: $buildingUnit / 2;
+}
