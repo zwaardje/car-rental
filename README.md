@@ -1,4 +1,4 @@
-DinoPark Safety platform
+Car rental platform
 ==========================
 
 Prerequisites
@@ -16,8 +16,8 @@ Install
 
 Run project
 ------------
-
-- `npm run dev`
+- `npm run build` prebuild all assets
+- `npm run dev` startup dev server to view project
 
 NPM Commands
 ------------
