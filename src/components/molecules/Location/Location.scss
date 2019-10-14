@@ -1,0 +1,21 @@
+$buildingUnit: 12px;
+
+.location {
+    display: flex;
+    flex-direction: column;
+    background:#0ea1d5;
+    color: #ffffff;
+    padding: $buildingUnit * 2;
+    margin-bottom: $buildingUnit * 2;
+}
+.location__heading{
+    margin-top: 0;
+}
+.location__body{
+    display: flex;
+}
+
+.location__map{
+    min-width: 200px;
+    height: 200px;
+}
