@@ -42,7 +42,7 @@
         "date-fns": "^2.0.0-alpha.27",
         "i18next": "^17.0.4",
         "jwt-decode": "^2.2.0",
-        "mapbox-gl": "^1.0.0",
+        "mapbox-gl": "^1.13.3",
         "promise-polyfill": "8.1.0",
         "react": "16.8.6",
         "react-calendar": "^2.19.0",
